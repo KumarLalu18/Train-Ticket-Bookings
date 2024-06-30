@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.train.ServiceTest.TrainServiceTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.589 s <<< FAILURE! -- in com.train.ServiceTest.TrainServiceTest
+com.train.ServiceTest.TrainServiceTest.testGetTrainsBySourceAndDestinationAndJourneyDateTime -- Time elapsed: 0.013 s <<< ERROR!
+com.train.Exception.TrainException: No trains found with the given Source, Destination and Date
+	at com.train.Service.TrainService.getTrainsBySourceAndDestinationAndJourneyDateTime(TrainService.java:54)
+	at com.train.ServiceTest.TrainServiceTest.testGetTrainsBySourceAndDestinationAndJourneyDateTime(TrainServiceTest.java:89)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
